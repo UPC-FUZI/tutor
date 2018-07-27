@@ -1,246 +1,58 @@
-2018-07-26 12:40:59:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14436 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:40:59:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:40:59:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:41:01:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 2.824 seconds (JVM running for 4.786)
-2018-07-26 12:42:53:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14453 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:42:53:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:42:53:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:42:55:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 2.64 seconds (JVM running for 4.678)
-2018-07-26 12:45:56:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14481 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:45:56:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:45:56:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:45:58:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 3.167 seconds (JVM running for 4.752)
-2018-07-26 12:49:00:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14536 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:49:00:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:49:00:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:49:02:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 3.116 seconds (JVM running for 4.935)
-2018-07-26 12:50:27:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14552 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:50:27:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:50:27:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:50:29:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 3.128 seconds (JVM running for 5.072)
-2018-07-26 12:51:41:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14577 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:51:41:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:51:41:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:51:44:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 2.866 seconds (JVM running for 4.977)
-2018-07-26 12:52:35:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14592 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:52:35:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:52:35:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:52:38:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 2.846 seconds (JVM running for 4.799)
-2018-07-26 12:53:40:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14602 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:53:40:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:53:40:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:53:44:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.819 seconds (JVM running for 6.856)
-2018-07-26 12:56:09:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO tutor (user_name,type) VALUES (?,?) 
-2018-07-26 12:56:09:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 12:57:18:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14643 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 12:57:18:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 12:57:18:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 12:57:22:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.835 seconds (JVM running for 6.834)
-2018-07-26 12:57:38:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 12:57:38:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 12:57:38:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 12:58:41:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 12:58:41:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 12:58:41:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:00:07:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14666 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 13:00:07:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 13:00:07:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 13:00:11:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.653 seconds (JVM running for 6.858)
-2018-07-26 13:00:17:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:00:17:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 13:00:17:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:01:24:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:01:24:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 13:01:24:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:01:25:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:01:25:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 13:01:25:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:01:48:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14683 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 13:01:48:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 13:01:48:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 13:01:54:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 5.883 seconds (JVM running for 7.999)
-2018-07-26 13:01:56:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:01:56:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 13:01:56:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:03:09:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:03:09:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 1(Long)
-2018-07-26 13:03:09:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:06:25:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14718 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 13:06:25:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 13:06:25:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 13:06:29:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 5.636 seconds (JVM running for 8.163)
-2018-07-26 13:06:30:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:06:30:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 1(Long)
-2018-07-26 13:06:30:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:06:35:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:06:35:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: UPC_FUZI(String), 1(Integer)
-2018-07-26 13:06:35:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:11:29:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 14765 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 13:11:29:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 13:11:29:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 13:11:35:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 6.563 seconds (JVM running for 9.577)
-2018-07-26 13:19:40:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (user_name,type) VALUES (?,?)
-2018-07-26 13:19:40:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: CDM(String), 1(Integer)
-2018-07-26 13:19:40:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 13:19:49:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:19:49:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 2(Long)
-2018-07-26 13:19:49:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:19:52:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:19:52:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 3(Long)
-2018-07-26 13:19:52:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:19:56:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:19:56:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 4(Long)
-2018-07-26 13:19:56:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:19:59:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:19:59:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 5(Long)
-2018-07-26 13:19:59:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:20:03:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:20:03:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 6(Long)
-2018-07-26 13:20:03:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:20:08:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:20:08:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 7(Long)
-2018-07-26 13:20:08:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:20:11:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from userInfo WHERE id=?
-2018-07-26 13:20:11:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 8(Long)
-2018-07-26 13:20:11:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 13:47:49:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 15019 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 13:47:49:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 13:47:49:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 13:47:53:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.611 seconds (JVM running for 6.49)
-2018-07-26 13:51:30:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (nick_name,type) VALUES (?,?)
-2018-07-26 13:51:30:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: CDM(String), 1(Integer)
-2018-07-26 13:51:50:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (nick_name,type) VALUES (?,?)
-2018-07-26 13:51:50:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: null, 1(Integer)
-2018-07-26 13:52:08:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO userInfo (nick_name,type) VALUES (?,?)
-2018-07-26 13:52:08:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: null, 1(Integer)
-2018-07-26 16:56:54:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16414 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 16:56:54:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 16:56:54:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 16:56:59:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 5.215 seconds (JVM running for 8.066)
-2018-07-26 17:03:42:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16465 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:03:42:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:03:42:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:03:46:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.24 seconds (JVM running for 6.995)
-2018-07-26 17:07:03:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16493 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:07:03:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:07:03:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:07:06:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.174 seconds (JVM running for 6.878)
-2018-07-26 17:13:52:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16546 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:13:52:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:13:52:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:13:56:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.73 seconds (JVM running for 7.027)
-2018-07-26 17:17:23:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16575 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:17:23:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:17:23:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:17:26:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.362 seconds (JVM running for 6.758)
-2018-07-26 17:22:09:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16613 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:22:09:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:22:09:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:22:13:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.777 seconds (JVM running for 7.202)
-2018-07-26 17:24:35:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16639 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:24:35:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:24:35:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:24:39:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.527 seconds (JVM running for 7.23)
-2018-07-26 17:26:35:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16657 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:26:35:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:26:35:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:26:41:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 6.658 seconds (JVM running for 9.522)
-2018-07-26 17:26:43:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select 1 from user_account where login_name = ? OR telephone = ? limit 1 
-2018-07-26 17:26:43:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 18811530776(String)
-2018-07-26 17:26:43:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 0
-2018-07-26 17:30:20:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16686 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:30:20:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:30:20:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:30:24:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.386 seconds (JVM running for 6.628)
-2018-07-26 17:30:30:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select count(*) from user_account where login_name = ? OR telephone = ? limit 1 
-2018-07-26 17:30:30:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 18811530776(String)
-2018-07-26 17:30:30:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:30:30:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_account (user_id, login_name, telephone, password) values ( ?, ?, ?, ?) 
-2018-07-26 17:30:30:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 15325974305607d796b9d-bf36-4215-8b8d-2917eecf3d99(String), upc_fuzi(String), 18811530776(String), upc_fuzi(String)
-2018-07-26 17:32:22:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select count(*) from user_account where login_name = ? OR telephone = ? limit 1 
-2018-07-26 17:32:22:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 18811530776(String)
-2018-07-26 17:32:22:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:32:29:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_account (user_id, login_name, telephone, password) values ( ?, ?, ?, ?) 
-2018-07-26 17:32:29:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 15325975425813bf695f6-9afb-42b7-ba33-0366045abea2(String), upc_fuzi(String), 18811530776(String), upc_fuzi(String)
-2018-07-26 17:32:29:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 17:33:11:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select count(*) from user_account where login_name = ? OR telephone = ? limit 1 
-2018-07-26 17:33:11:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 18811530776(String)
-2018-07-26 17:33:11:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:35:50:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select user_id, login_name, telephone, create_time, enabled from user_account where login_name = ? AND password = ? 
-2018-07-26 17:35:50:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), upc_fuzi(String)
-2018-07-26 17:35:50:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:39:56:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16756 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:39:56:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:39:56:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:40:00:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.458 seconds (JVM running for 6.851)
-2018-07-26 17:41:28:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16773 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:41:28:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:41:28:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:41:32:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.383 seconds (JVM running for 7.116)
-2018-07-26 17:41:49:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select user_id, login_name, telephone, create_time, enabled from user_account where login_name = ? AND password = ? 
-2018-07-26 17:41:49:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 973c46dd8df3fd4689f3d6f1495686dd(String)
-2018-07-26 17:41:49:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 0
-2018-07-26 17:41:56:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select count(*) from user_account where login_name = ? OR telephone = ? limit 1 
-2018-07-26 17:41:56:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 18811530776(String)
-2018-07-26 17:41:56:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:42:01:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_account (user_id, login_name, telephone, password) values ( ?, ?, ?, ?) 
-2018-07-26 17:42:01:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 15325981166529fcd797d-0535-4d38-aebb-6ce4d91abf38(String), upc_fuzi(String), 18811530776(String), 973c46dd8df3fd4689f3d6f1495686dd(String)
-2018-07-26 17:42:01:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 17:42:08:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select user_id, login_name, telephone, create_time, enabled from user_account where login_name = ? AND password = ? 
-2018-07-26 17:42:08:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 973c46dd8df3fd4689f3d6f1495686dd(String)
-2018-07-26 17:42:08:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:42:08:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from user_info WHERE user_id=? 
-2018-07-26 17:42:08:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 15325981166529fcd797d-0535-4d38-aebb-6ce4d91abf38(String)
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: select user_id, login_name, telephone, create_time, enabled from user_account where login_name = ? AND password = ? 
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: upc_fuzi(String), 973c46dd8df3fd4689f3d6f1495686dd(String)
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 1
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: SELECT * from user_info WHERE user_id=? 
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 15325981166529fcd797d-0535-4d38-aebb-6ce4d91abf38(String)
-2018-07-26 17:43:22:[DEBUG] (BaseJdbcLogger.java:159) - <==      Total: 0
-2018-07-26 17:48:49:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16833 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:48:49:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:48:49:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:48:53:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.369 seconds (JVM running for 7.22)
-2018-07-26 17:51:28:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 16856 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 17:51:28:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 17:51:28:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 17:51:32:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.411 seconds (JVM running for 6.635)
-2018-07-26 17:51:40:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO user_info (nick_name,type) VALUES (?,?) 
-2018-07-26 17:51:40:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: fuzi(String), 0(Integer)
-2018-07-26 17:52:27:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO user_info (nick_name,type) VALUES (?,?) 
-2018-07-26 17:52:27:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: fuzi(String), 0(Integer)
-2018-07-26 17:54:22:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: INSERT INTO user_info (nick_name,type) VALUES (?,?) 
-2018-07-26 17:54:22:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: fuzi(String), 0(Integer)
-2018-07-26 18:16:26:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17035 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:16:26:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:16:26:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:17:12:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17045 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:17:12:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:17:12:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:18:49:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17058 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:18:49:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:18:49:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:20:11:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17071 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:20:11:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:20:11:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:24:28:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17108 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:24:28:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:24:28:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:25:26:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17120 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:25:26:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:25:26:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:25:30:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.557 seconds (JVM running for 6.876)
-2018-07-26 18:31:55:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 17171 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
-2018-07-26 18:31:55:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-26 18:31:55:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
-2018-07-26 18:31:59:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.512 seconds (JVM running for 6.585)
-2018-07-26 18:32:07:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_info ( user_id, nick_name, city, address ) values ( ?, ?, ?, ? ) 
-2018-07-26 18:32:07:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 973c46dd8df3fd4689f3d6f1495686dd(String), fuzi(String), 江苏省南京市雨花台区(String), 楚翘城3号楼(String)
-2018-07-26 18:35:06:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_info ( user_id, nick_name, city, address, type ) values ( ?, ?, ?, ?, ? ) 
-2018-07-26 18:35:06:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 973c46dd8df3fd4689f3d6f1495686dd(String), fuzi(String), 江苏省南京市雨花台区(String), 楚翘城3号楼(String), 1(Integer)
-2018-07-26 18:36:14:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_info ( user_id, nick_name, city, address, type ) values ( ?, ?, ?, ?, ? ) 
-2018-07-26 18:36:14:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 973c46dd8df3fd4689f3d6f1495686dd(String), fuzi(String), 江苏省南京市雨花台区(String), 楚翘城3号楼(String), 1(Integer)
-2018-07-26 18:36:14:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
-2018-07-26 18:36:32:[DEBUG] (BaseJdbcLogger.java:159) - ==>  Preparing: insert into user_info ( user_id, nick_name, city, address, type ) values ( ?, ?, ?, ?, ? ) 
-2018-07-26 18:36:32:[DEBUG] (BaseJdbcLogger.java:159) - ==> Parameters: 973c46dd8df3fd4689f3d6f1495686dd(String), fuzi(String), 江苏省南京市雨花台区(String), 楚翘城3号楼(String), 1(Integer)
-2018-07-26 18:36:32:[DEBUG] (BaseJdbcLogger.java:159) - <==    Updates: 1
+2018-07-27 16:35:33:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 21685 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 16:35:33:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 16:35:33:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 16:35:37:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.443 seconds (JVM running for 8.625)
+2018-07-27 17:03:33:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 21904 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:03:33:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:03:33:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:03:37:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.644 seconds (JVM running for 7.835)
+2018-07-27 17:10:01:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 21957 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:10:01:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:10:01:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:10:05:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.218 seconds (JVM running for 7.175)
+2018-07-27 17:19:33:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22035 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:19:33:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:19:33:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:19:37:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.288 seconds (JVM running for 7.176)
+2018-07-27 17:21:06:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22065 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:21:06:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:21:06:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:21:10:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.971 seconds (JVM running for 7.596)
+2018-07-27 17:24:17:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22102 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:24:17:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:24:17:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:24:21:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.319 seconds (JVM running for 6.972)
+2018-07-27 17:25:20:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22115 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:25:20:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:25:20:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:25:24:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.207 seconds (JVM running for 6.719)
+2018-07-27 17:26:35:[INFO] (UploadFileService.java:32) - 路径:[/pic/card0.application/vnd.openxmlformats-officedocument.wordprocessingml.document]
+2018-07-27 17:29:51:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22154 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:29:51:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:29:51:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:29:55:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.444 seconds (JVM running for 7.211)
+2018-07-27 17:30:36:[INFO] (UploadFileService.java:33) - 路径:[/pic/card_0.docx]
+2018-07-27 17:36:52:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22220 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:36:52:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:36:52:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:36:55:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.4 seconds (JVM running for 7.46)
+2018-07-27 17:37:10:[INFO] (UploadFileService.java:33) - 路径:[/Users/zhongxingfu/Documents/创业项目/后端/tutor/pic/card_0.docx]
+2018-07-27 17:40:28:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22258 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:40:28:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:40:28:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:40:32:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.812 seconds (JVM running for 7.413)
+2018-07-27 17:40:33:[INFO] (FileUploadController.java:21) - 路径
+2018-07-27 17:40:33:[INFO] (FileUploadController.java:22) - 路径null
+2018-07-27 17:40:45:[INFO] (UploadFileService.java:33) - 路径:[/Users/zhongxingfu/Documents/创业项目/后端/tutor/pic/card_0.docx]
+2018-07-27 17:41:27:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22270 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:41:27:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:41:27:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:41:31:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.282 seconds (JVM running for 6.804)
+2018-07-27 17:41:39:[INFO] (FileUploadController.java:21) - 路径
+2018-07-27 17:41:39:[INFO] (FileUploadController.java:22) - 路径/Users/zhongxingfu/Documents/创业项目/后端/tutor
+2018-07-27 17:41:43:[INFO] (UploadFileService.java:33) - 路径:[/Users/zhongxingfu/Documents/创业项目/后端/tutor/pic/card_0.docx]
+2018-07-27 17:43:45:[INFO] (StartupInfoLogger.java:50) - Starting TutorApplication on bogon with PID 22295 (started by zhongxingfu in /Users/zhongxingfu/Documents/创业项目/后端/tutor)
+2018-07-27 17:43:45:[DEBUG] (StartupInfoLogger.java:53) - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-27 17:43:45:[INFO] (SpringApplication.java:659) - No active profile set, falling back to default profiles: default
+2018-07-27 17:43:49:[INFO] (StartupInfoLogger.java:59) - Started TutorApplication in 4.582 seconds (JVM running for 7.011)
+2018-07-27 17:44:12:[INFO] (UploadFileService.java:33) - 路径:[/Users/zhongxingfu/Documents/创业项目/后端/tutor/pic/card_0.docx]
