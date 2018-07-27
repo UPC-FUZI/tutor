@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wf.tutor.dao.UserAccountMapper">
+    <sql id="Base_Column_List">
+        user_id, login_name, telephone, create_time, enabled
+    </sql>
+    <insert id="insert" parameterType="com.wf.tutor.model.AccountRegisterRequest">
+        insert into user_account (user_id, login_name, telephone, password)
+        values ( #{userId,jdbcType=VARCHAR}, #{loginName,jdbcType=VARCHAR},
+        #{telephone,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
+    </insert>
+    <select id="getUserByNameAndPassword" parameterType="com.wf.tutor.model.AccountLoginRequest" resultType="com.wf.tutor.domain.UserAccount">
+        select
+        <include refid="Base_Column_List" />
+        from user_account
+        where login_name = #{loginName,jdbcType=VARCHAR} AND password = #{password,jdbcType=VARCHAR}
+    </select>
+    <select id="getUserByNameOrTelephone" parameterType="com.wf.tutor.model.AccountRegisterRequest" resultType="java.lang.Integer">
+        select count(*)
+        from user_account
+        where login_name = #{loginName,jdbcType=VARCHAR} OR telephone = #{telephone,jdbcType=VARCHAR}
+        limit 1
+    </select>
+    <update id="updateByUserId" parameterType="com.wf.tutor.model.AccountModifyRequest">
+        update user_account
+        <set>
+            <if test="loginName != null">
+                login_name = #{loginName,jdbcType=VARCHAR},
+            </if>
+            <if test="telephone != null">
+                telephone = #{telephone,jdbcType=VARCHAR},
+            </if>
+            <if test="password != null">
+                password = #{password,jdbcType=VARCHAR},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="enabled != null">
+                enabled = #{enabled,jdbcType=BIT},
+            </if>
+        </set>
+        where user_id = #{userId,jdbcType=VARCHAR}
+    </update>
+</mapper>

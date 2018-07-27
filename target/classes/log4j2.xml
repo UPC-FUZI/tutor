@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="WARN" monitorInterval="30">
+
+    <properties>
+        <property name="PROJECT_NAME">Tutor</property>
+        <property name="Pattern_Layout">%d{yyyy-MM-dd HH:mm:ss}:[%level] (%F:%L) - %m%n</property>
+    </properties>
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <ThresholdFilter level="debug"/>
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss,SSS}:%4p %t (%F:%L) - %m%n"/>
+        </Console>
+
+        <RollingFile name="ROLLING_FILE_INFO" fileName="${sys:PROJECT_NAME}Log/info.log"
+                     filePattern="${sys:PROJECT_NAME}Log/%d{yyyy-MM}/%d{yyyy-MM-dd}/info_%i.log">
+            <PatternLayout pattern="${Pattern_Layout}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+                <SizeBasedTriggeringPolicy size="128kb"/>
+            </Policies>
+            <!--输出debug到warn级别的日志-->
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </RollingFile>
+
+        <RollingFile name="ROLLING_FILE_ERROR" fileName="${sys:PROJECT_NAME}Log/error.log"
+                     filePattern="${sys:PROJECT_NAME}Log/${date:yyyy-MM}/%d{yyyy-MM-dd}/error_%i.log">
+            <PatternLayout pattern="${Pattern_Layout}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+                <SizeBasedTriggeringPolicy size="128kb"/>
+            </Policies>
+            <!--输出error级别以上的日志-->
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <logger name="com.wf.tutor" level="all">
+            <appender-ref ref="ROLLING_FILE_ERROR"/>
+            <appender-ref ref="ROLLING_FILE_INFO"/>
+        </logger>
+    </Loggers>
+</Configuration>
