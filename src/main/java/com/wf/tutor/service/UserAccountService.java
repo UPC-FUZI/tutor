@@ -12,6 +12,7 @@ import com.wf.tutor.model.AccountModifyRequest;
 import com.wf.tutor.model.AccountRegisterRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -24,6 +25,7 @@ public class UserAccountService extends LoggerBase {
     @Autowired
     UserInfoMapper userInfoMapper;
 
+    @Transactional
     public ApiResult<Boolean> register(AccountRegisterRequest request) {
         int count = userAccountMapper.getUserByNameOrTelephone(request);
         if (count >= 1) {
@@ -32,6 +34,9 @@ public class UserAccountService extends LoggerBase {
         request.setUserId(createUserId());
         request.setPassword(encryptPassword(request.getPassword()));
         int result = userAccountMapper.insert(request);
+        if (result == 1) {
+            throw new RuntimeException("yichang ");
+        }
         return result >= 1 ? ApiResult.createSuccess(true) : ApiResult.createError(ErrorCodeEnum.REGISTERED_FAIL);
     }
 

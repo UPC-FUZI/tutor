@@ -19,6 +19,8 @@ public class UserInfo {
 
     private String school;
 
+    private String headPicture;
+
     private Integer type;
 
     private Date createTime;
@@ -87,6 +89,14 @@ public class UserInfo {
 
     public void setSchool(String school) {
         this.school = school == null ? null : school.trim();
+    }
+
+    public String getHeadPicture() {
+        return headPicture;
+    }
+
+    public void setHeadPicture(String headPicture) {
+        this.headPicture = headPicture;
     }
 
     public Integer getType() {

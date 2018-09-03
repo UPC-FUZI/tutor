@@ -10,19 +10,11 @@ public class UserAccount {
 
     private String userId;
 
-    private String nickName;
+    private String loginName;
 
-    private String realName;
+    private String telephone;
 
-    private Integer cardId;
-
-    private String city;
-
-    private String address;
-
-    private String school;
-
-    private Integer type;
+    private String password;
 
     private LocalDateTime createTime;
 
@@ -45,60 +37,28 @@ public class UserAccount {
         this.userId = userId == null ? null : userId.trim();
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getLoginName() {
+        return loginName;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName == null ? null : nickName.trim();
+    public void setLoginName(String loginName) {
+        this.loginName = loginName;
     }
 
-    public String getRealName() {
-        return realName;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setRealName(String realName) {
-        this.realName = realName == null ? null : realName.trim();
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 
-    public Integer getCardId() {
-        return cardId;
+    public String getPassword() {
+        return password;
     }
 
-    public void setCardId(Integer cardId) {
-        this.cardId = cardId;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city == null ? null : city.trim();
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address == null ? null : address.trim();
-    }
-
-    public String getSchool() {
-        return school;
-    }
-
-    public void setSchool(String school) {
-        this.school = school == null ? null : school.trim();
-    }
-
-    public Integer getType() {
-        return type;
-    }
-
-    public void setType(Integer type) {
-        this.type = type;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public boolean isEnabled() {

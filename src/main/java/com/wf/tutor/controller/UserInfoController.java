@@ -17,13 +17,16 @@ public class UserInfoController {
     UserInfoMapper userInfoMapper;
 
     @RequestMapping(value = "/save", method = RequestMethod.POST)
-    public ApiResult<Boolean> saveUser(@RequestBody UserInfo userInfo) {
+    public ApiResult<Boolean> saveUser(@RequestBody UserInfo userInfo) throws Exception{
+        if (true){
+            throw new Exception("测试");
+        }
         userInfoMapper.insert(userInfo);
         return ApiResult.createSuccess(true);
     }
 
-    @RequestMapping(value = "/getUserById", method = RequestMethod.GET)
-    public ApiResult<UserInfo> getUserById(@Param("userId") String userId) {
+    @RequestMapping(value = "/getUserByUserId", method = RequestMethod.GET)
+    public ApiResult<UserInfo> getUserByUserId(@Param("userId") String userId) {
         return ApiResult.createSuccess(userInfoMapper.getUserInfoByUserId(userId));
     }
 }

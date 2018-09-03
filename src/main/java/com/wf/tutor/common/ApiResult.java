@@ -62,4 +62,12 @@ public class ApiResult<T> {
         return result;
     }
 
+    public static <K> ApiResult<K> createError(String message) {
+        ApiResult<K> result = new ApiResult<>();
+        result.code = 999;
+        result.success = false;
+        result.message = message;
+        return result;
+    }
+
 }

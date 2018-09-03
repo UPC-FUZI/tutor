@@ -5,7 +5,7 @@
     user_id, nick_name, real_name, card_id, city, address, school, type, create_time,
     update_time
   </sql>
-  <select id="getUserInfoById" resultType="com.wf.tutor.domain.UserInfo">
+  <select id="getUserInfoByUserId" resultType="com.wf.tutor.domain.UserInfo">
     select 
     <include refid="Base_Column_List" />
     from user_info
