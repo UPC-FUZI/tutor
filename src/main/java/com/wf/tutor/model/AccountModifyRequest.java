@@ -5,7 +5,6 @@ import java.time.format.DateTimeFormatter;
 
 public class AccountModifyRequest {
     private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-    private String loginName;
     private String telephone;
     private String password;
     private LocalDateTime updateTime;
@@ -16,14 +15,6 @@ public class AccountModifyRequest {
 
     public static void setFormatter(DateTimeFormatter formatter) {
         AccountModifyRequest.formatter = formatter;
-    }
-
-    public String getLoginName() {
-        return loginName;
-    }
-
-    public void setLoginName(String loginName) {
-        this.loginName = loginName;
     }
 
     public String getTelephone() {
@@ -56,7 +47,6 @@ public class AccountModifyRequest {
     @Override
     public String toString() {
         return "AccountModifyRequest{" +
-                "loginName='" + loginName + '\'' +
                 ", telephone='" + telephone + '\'' +
                 ", password='" + password + '\'' +
                 ", updateTime=" + updateTime +

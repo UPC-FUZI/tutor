@@ -11,9 +11,9 @@ public interface UserAccountMapper {
 
     int insert(AccountRegisterRequest record);
 
-    UserAccount getUserByNameAndPassword(AccountLoginRequest request);
+    UserAccount getUserAccount(AccountLoginRequest request);
 
-    int getUserByNameOrTelephone(AccountRegisterRequest request);
+    int getUserByTelephone(AccountRegisterRequest request);
 
     int updateByUserId(AccountModifyRequest request);
 }

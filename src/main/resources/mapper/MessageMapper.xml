@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wf.tutor.dao.MessageMapper">
+  <resultMap id="BaseResultMap" type="com.wf.tutor.domain.Message">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="from_id" jdbcType="VARCHAR" property="fromId" />
+    <result column="to_id" jdbcType="VARCHAR" property="toId" />
+    <result column="msg" jdbcType="VARCHAR" property="msg" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, from_id, to_id, msg, create_time, status
+  </sql>
+  <insert id="insert" parameterType="com.wf.tutor.domain.Message">
+    insert into message (from_id, to_id, msg, status)
+    values (#{fromId,jdbcType=VARCHAR}, #{toId,jdbcType=VARCHAR},
+    #{msg,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER})
+  </insert>
+  <update id="updateById" parameterType="java.lang.Integer">
+    update message
+    set status = 1
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="selectByFromId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from message
+    where from_id = #{fromId,jdbcType=VARCHAR} and status = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectByFromIdAndToId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from message
+    where from_id = #{fromId,jdbcType=VARCHAR} and to_id = #{toId,jdbcType=VARCHAR} and status = #{status,jdbcType=INTEGER}
+  </select>
+  <select id="selectByToId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from message
+    where id in (
+      select max(id) as id from message
+      where to_id = #{toId,jdbcType=VARCHAR}
+      group by from_id
+    )
+  </select>
+</mapper>

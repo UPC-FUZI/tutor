@@ -19,4 +19,15 @@ public class UserInfoService {
         int result = userInfoMapper.insert(userInfo);
         return result >= 1;
     }
+
+    /**
+     * 先查真实姓名，若没有再查昵称
+     */
+    public String getUserNameByUserId(String userId) {
+        String userName = userInfoMapper.getRealNameByUserId(userId);
+        if (userName == null || userName.isEmpty()) {
+            return userInfoMapper.getNickNameByUserId(userId);
+        }
+        return userName;
+    }
 }

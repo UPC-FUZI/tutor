@@ -27,23 +27,20 @@ public class UserAccountService extends LoggerBase {
 
     @Transactional
     public ApiResult<Boolean> register(AccountRegisterRequest request) {
-        int count = userAccountMapper.getUserByNameOrTelephone(request);
+        int count = userAccountMapper.getUserByTelephone(request);
         if (count >= 1) {
             return ApiResult.createError(ErrorCodeEnum.ALREADY_REGISTERED);
         }
         request.setUserId(createUserId());
         request.setPassword(encryptPassword(request.getPassword()));
         int result = userAccountMapper.insert(request);
-        if (result == 1) {
-            throw new RuntimeException("yichang ");
-        }
         return result >= 1 ? ApiResult.createSuccess(true) : ApiResult.createError(ErrorCodeEnum.REGISTERED_FAIL);
     }
 
     //TODO 登录成功后，查询用户基本信息
     public ApiResult<UserInfo> login(AccountLoginRequest request) {
         request.setPassword(encryptPassword(request.getPassword()));
-        UserAccount userAccount = userAccountMapper.getUserByNameAndPassword(request);
+        UserAccount userAccount = userAccountMapper.getUserAccount(request);
         if (userAccount == null || !userAccount.isEnabled()) {
             return ApiResult.createError(ErrorCodeEnum.Login_FAIL);
         }
@@ -56,7 +53,7 @@ public class UserAccountService extends LoggerBase {
         return result >= 1 ? ApiResult.createSuccess(true) : ApiResult.createError(ErrorCodeEnum.FAIL);
     }
 
-    public String encryptPassword(String password) {
+    private String encryptPassword(String password) {
         String encrypt = null;
         try {
             MessageDigest md = MessageDigest.getInstance("MD5");
@@ -84,6 +81,6 @@ public class UserAccountService extends LoggerBase {
     }
 
     private String createUserId() {
-        return System.currentTimeMillis() + UUID.randomUUID().toString();
+        return UUID.randomUUID().toString();
     }
 }
